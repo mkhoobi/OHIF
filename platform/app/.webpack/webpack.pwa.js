@@ -69,6 +69,14 @@ module.exports = (env, argv) => {
         // Hoisted Yarn Workspace Modules
         path.resolve(__dirname, '../../../node_modules'),
         SRC_DIR,
+        path.resolve(
+          __dirname,
+          'C:/Users/User/Documents/Repo/OHIF/OHIF-Extended/mode-path/ohif-mode-ai/node_modules'
+        ),
+        path.resolve(
+          __dirname,
+          'C:/Users/User/Documents/Repo/OHIF/OHIF-Extended/extension-path/ohif-extension-ai/node_modules'
+        ),
       ],
     },
     plugins: [
