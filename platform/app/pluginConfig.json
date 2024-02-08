@@ -51,10 +51,6 @@
       "packageName": "@ohif/extension-cornerstone-dicom-rt",
       "default": false,
       "version": "3.0.0"
-    },
-    {
-      "packageName": "ohif-extension-ai",
-      "version": "0.0.1"
     }
   ],
   "modes": [
@@ -79,10 +75,6 @@
       "packageName": "@ohif/mode-basic-dev-mode",
       "default": false,
       "version": "3.0.0"
-    },
-    {
-      "packageName": "ohif-mode-ai",
-      "version": "0.0.1"
     }
   ],
   "public": [
