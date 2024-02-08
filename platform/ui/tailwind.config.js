@@ -43,10 +43,10 @@ module.exports = {
       },
 
       secondary: {
-        light: '#3a3f99',
-        main: '#2b166b',
-        dark: '#041c4a',
-        active: '#1f1f27',
+        light: '#A0A0A0',
+        main: '#808080',
+        dark: '#606060',
+        active: '#000000',
       },
 
       common: {

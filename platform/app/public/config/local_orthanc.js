@@ -1,5 +1,22 @@
 window.config = {
   routerBasename: '/',
+  whiteLabeling: {
+    createLogoComponentFn: function (React) {
+      return React.createElement(
+        'div',
+        {
+          target: '_self',
+          rel: 'noopener noreferrer',
+          className: 'text-purple-600 line-through',
+          href: '/',
+        },
+        React.createElement('img', {
+          src: './assets/UKA-Big.png',
+          className: 'w-20 h-8',
+        })
+      );
+    },
+  },
   extensions: [],
   modes: [],
   customizationService: {
